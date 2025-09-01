@@ -19,6 +19,7 @@
 .amazing {
   background: linear-gradient(90deg, #fbbc04, #a65f00);
   height: 50vh;
+   font-family:"Rethink Sans", "Rethink Sans Placeholder", sans-serif;
 }
 .bookbtn {
   background-color: black;

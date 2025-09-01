@@ -92,6 +92,7 @@
 <style lang="scss" scoped>
 footer{
   background-color: black;
+   font-family:"Rethink Sans", "Rethink Sans Placeholder", sans-serif;
 }
 
 footer a{

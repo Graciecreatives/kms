@@ -2,7 +2,7 @@
   <section class="ourstory">
     <div class="container pt-5 pb-5">
       <div class="row align-items-center">
-        <div class="col-lg-6 col-12">
+        <div class="col-lg-6 col-12 mb-5">
           <h1 style="color:white">Our Story</h1>
           <p style="color:white">
             SoundWave Studio was born from a simple belief: every artist deserves access to
