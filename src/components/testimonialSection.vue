@@ -14,7 +14,7 @@
                 "SoundWave Studio transformed my demos into radio-ready tracks. The team's expertise is unmatched!" </i>
               </p>
               <div class="d-flex align-items-center">
-                <img src="..." class="rounded me-3" alt="...">
+                <!-- <img src="..." class="rounded me-3" alt="..."> -->
                 <p style="color:white">Sarah Johnson <br>
                 <span style="color:#5c86a2">Artiste</span></p>
               </div>
@@ -28,7 +28,7 @@
                 "SoundWave Studio transformed my demos into radio-ready tracks. The team's expertise is unmatched!" </i>
               </p>
               <div class="d-flex align-items-center">
-                <img src="..." class="rounded me-3" alt="...">
+                <!-- <img src="..." class="rounded me-3" alt="..."> -->
                 <p style="color:white">Sarah Johnson <br>
                 <span style="color:#5c86a2">Artiste</span></p>
               </div>
@@ -42,7 +42,7 @@
                 "SoundWave Studio transformed my demos into radio-ready tracks. The team's expertise is unmatched!" </i>
               </p>
               <div class="d-flex align-items-center">
-                <img src="..." class="rounded me-3" alt="...">
+                <!-- <img src="..." class="rounded me-3" alt="..."> -->
                 <p style="color:white">Sarah Johnson <br>
                 <span style="color:#5c86a2">Artiste</span></p>
               </div>
