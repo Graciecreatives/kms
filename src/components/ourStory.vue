@@ -1,7 +1,7 @@
 <template>
   <section class="ourstory">
-    <div class="container pt-5">
-      <div class="row">
+    <div class="container pt-5 pb-5">
+      <div class="row align-items-center">
         <div class="col-lg-6 col-12">
           <h1 style="color:white">Our Story</h1>
           <p style="color:white">
@@ -17,10 +17,15 @@
             providing the technical expertise and creative support needed to bring that vision to
             life.
           </p>
-           <a href="" type="button" class="btn btn-primary px-4 gap-3 contactbtn me-3">
+           <a href="" type="button" class="btn btn-primary px-4 gap-3 contactbtn mt-4">
            Get in Touch <span><i class="bi bi-arrow-right"></i></span>
           </a>
 
+        </div>
+
+        <div class="col-lg-6 col-12" >
+          <img src="../assets/Images/IMAGE1.jpg" alt="" class="img-fluid
+          ">
         </div>
       </div>
     </div>
@@ -30,6 +35,7 @@
 <style lang="scss" scoped>
 .ourstory{
   background-color:#080c14;
+  font-family:"Rethink Sans", "Rethink Sans Placeholder", sans-serif;
 }
 .contactbtn{
   background-color: #D08700;

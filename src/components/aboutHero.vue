@@ -17,6 +17,7 @@
 <style lang="scss" scoped>
 .aboutus {
   background-color: black;
+  font-family:"Rethink Sans", "Rethink Sans Placeholder", sans-serif;
 }
 .about-text {
   color: white;

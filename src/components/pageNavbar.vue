@@ -30,6 +30,7 @@
 <style lang="scss" scoped>
 .theNav{
   background-color: #000000;
+  font-family:"Rethink Sans", "Rethink Sans Placeholder", sans-serif;
 }
 
 .nav-link{
