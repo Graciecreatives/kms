@@ -7,16 +7,8 @@
       <h5>{{musicData.title}}</h5>
       <p>{{musicData.artist}}</p>
 
-      <!-- <button class="btn btn-primary playbtn" @click="playMusic"> <i class="bi bi-play"></i>Play</button> -->
-      <!-- <audio :src="musicData.audio" controls class="w-100"></audio> -->
-      <audio ref="audioPlayer" :src="musicData.audio" @timeupdate="updateProgress"></audio>
 
-<div class="controls">
-  <button @click="rewind"><i class="bi bi-rewind"></i></button>
-  <button @click="togglePlay">{{ isPlaying ? "⏸" : "▶" }}</button>
-  <button @click="forward">⏩</button>
-  <input type="range" min="0" :max="duration" v-model="currentTime" @input="seek"/>
-</div>
+      <audio :src="musicData.audio" controls class="w-100"></audio>
 
     </div>
   </div>
