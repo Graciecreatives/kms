@@ -13,7 +13,7 @@
         <li><router-link to="/" class="nav-link px-2">Home</router-link></li>
         <li><router-link to="/services" class="nav-link px-2">Services</router-link></li>
         <li><router-link to="/about" class="nav-link px-2">About</router-link></li>
-        <li><router-link to="#" class="nav-link px-2">Portfolio</router-link></li>
+        <li><router-link to="/portfolio" class="nav-link px-2">Portfolio</router-link></li>
         <li><router-link to="#" class="nav-link px-2">Contact</router-link></li>
       </ul>
       <div class="col-md-3 text-end">
