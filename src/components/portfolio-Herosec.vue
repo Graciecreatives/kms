@@ -1,21 +1,20 @@
 <template>
-  <section class="aboutus">
+  <section class="portfoliohero">
      <div class="container">
       <div class="px-4 py-5 my-0 text-center">
-        <h1 class="display-5 fw-bold about-text">About Kingz Music Studio</h1>
+        <h1 class="display-5 fw-bold about-text">Our Portfolio</h1>
         <div class="col-lg-8 mx-auto">
           <p class="mb-4" style="color: white">
-            Where passion meets professionalism. We're dedicated to bringing your musical vision to
-            life with state-of-the-art equipment and years of industry experience.
+           Listen to some of the amazing projects we've had the privilege to work on. Each track represents our commitment to quality and artistic vision.
           </p>
-        </div>
+        </div>  
       </div>
     </div>
   </section>
 </template>
 
 <style lang="scss" scoped>
-.aboutus {
+.portfoliohero {
   background-color: black;
   font-family:"Rethink Sans", "Rethink Sans Placeholder", sans-serif;
 }

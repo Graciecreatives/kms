@@ -5,7 +5,7 @@
         <div class="col-lg-6 col-12 mb-5">
           <h1 style="color:white">Our Story</h1>
           <p style="color:white">
-            SoundWave Studio was born from a simple belief: every artist deserves access to
+            Kingz Music Studio was born from a simple belief: every artist deserves access to
             professional-quality recording facilities and expert guidance, regardless of their
             budget or experience level. <br> <br>
 

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "cover": "/musicArtwork/mukulu-artwork.jpg",
+    "duration": "2:54",
+    "title": "Mukulu",
+    "artist": "Tomzkid x Heritage Boy",
+    "audio": "/audio/Mukulu- Tomzkid x Heritage Boy.mp3"
+  },
+
+  {
+    "id": 2,
+    "cover": "/musicArtwork/My-matter-artwork.jpg",
+    "duration": "2:50",
+    "title": "My Matter",
+    "artist": "Shevron x SOT",
+    "audio": "/audio/My matter.mp3"
+  },
+  {
+    "id": 1,
+    "cover": "/musicArtwork/mukulu-artwork.jpg",
+    "duration": "2:54",
+    "title": "Mukulu",
+    "artist": "Tomzkid x Heritage Boy",
+    "services": ["Recording", "Mixing", "Mastering"],
+    "audio": "/audio/Mukulu- Tomzkid x Heritage Boy.mp3"
+  },
+
+  {
+    "id": 2,
+    "cover": "/musicArtwork/mukulu-artwork.jpg",
+    "duration": "2:54",
+    "title": "Mukulu",
+    "artist": "Tomzkid x Heritage Boy",
+    "services": ["Recording", "Mixing", "Mastering"],
+    "audio": "/audio/Mukulu- Tomzkid x Heritage Boy.mp3"
+  }
+]
