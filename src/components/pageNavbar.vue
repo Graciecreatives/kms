@@ -1,29 +1,54 @@
 <template>
   <section class="theNav">
-  <div class="container">
-    <header
-      class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-0"
-    >
-      <div class="col-md-3 mb-2 mb-md-0">
-        <a href="/" class="text-decoration-none">
-          <img src="" alt=""> <span style="color:white;">Kingz Music Studio</span>
+    <div class="container">
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <a href="/" class="navbar-brand" style="padding:0; margin:0">
+          <img src="../assets/Images/Logo.png" alt="Logo" class="w-50" />
         </a>
-      </div>
-      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><router-link to="/" class="nav-link px-2">Home</router-link></li>
-        <li><router-link to="/services" class="nav-link px-2">Services</router-link></li>
-        <li><router-link to="/about" class="nav-link px-2">About</router-link></li>
-        <li><router-link to="/portfolio" class="nav-link px-2">Portfolio</router-link></li>
-        <li><router-link to="#" class="nav-link px-2">Contact</router-link></li>
-      </ul>
-      <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-primary me-2 signinbtn">Sign In</button>
-        <button type="button" class="btn btn-primary signupbtn">Sign Up</button>
-      </div>
-    </header>
-  </div>
+
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <router-link to="/" class="nav-link px-2">Home</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/services" class="nav-link px-2">Services</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/about" class="nav-link px-2">About</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/portfolio" class="nav-link px-2">Portfolio</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/contact" class="nav-link px-2">Contact</router-link>
+            </li>
+          </ul>
+
+          <div class="d-flex">
+            <button type="button" class="btn btn-outline-primary me-2 signinbtn">Sign In</button>
+            <button type="button" class="btn btn-primary signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </nav>
+    </div>
   </section>
 </template>
+
 
 <script setup></script>
 
