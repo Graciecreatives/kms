@@ -56,59 +56,10 @@ audio {
 // }
 </style>
 <script setup>
-import { onMounted, ref} from 'vue'
 const props = defineProps({
   musicData : Object
 })
 
-const audioPlayer = ref(null)        // reference to <audio>
-const isPlaying = ref(false)         // play / pause state
-const duration = ref(0)              // total song length (seconds)
-const currentTime = ref(0)           // current playback time
-
-// When audio metadata is loaded, set duration
-onMounted(() => {
-  audioPlayer.value.addEventListener("loadedmetadata", () => {
-    duration.value = Math.floor(audioPlayer.value.duration)
-  })
-})
-
-// Update progress bar as audio plays
-function updateProgress() {
-  currentTime.value = Math.floor(audioPlayer.value.currentTime)
-}
-
-// Toggle play / pause
-function togglePlay() {
-  if (!audioPlayer.value) return
-  if (isPlaying.value) {
-    audioPlayer.value.pause()
-  } else {
-    audioPlayer.value.play()
-  }
-  isPlaying.value = !isPlaying.value
-}
-
-// Skip forward 10 seconds
-function forward() {
-  if (audioPlayer.value) {
-    audioPlayer.value.currentTime += 10
-  }
-}
-
-// Rewind 10 seconds
-function rewind() {
-  if (audioPlayer.value) {
-    audioPlayer.value.currentTime -= 10
-  }
-}
-
-// Seek when user drags the range input
-function seek() {
-  if (audioPlayer.value) {
-    audioPlayer.value.currentTime = currentTime.value
-  }
-}
 
 
 </script>
