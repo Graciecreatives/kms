@@ -11,28 +11,61 @@
   {
     "id": 2,
     "cover": "/musicArtwork/My-matter-artwork.jpg",
+    "duration": "3:16",
+    "title": "Alubarika",
+    "artist": "Star Duma",
+    "audio": "/audio/Alubarika by Star Duma.mp3"
+  },
+  {
+    "id": 3,
+    "cover": "/musicArtwork/My-matter-artwork.jpg",
     "duration": "2:50",
     "title": "My Matter",
     "artist": "Shevron x SOT",
-    "audio": "/audio/My matter.mp3"
-  },
-  {
-    "id": 1,
-    "cover": "/musicArtwork/mukulu-artwork.jpg",
-    "duration": "2:54",
-    "title": "Mukulu",
-    "artist": "Tomzkid x Heritage Boy",
-    "services": ["Recording", "Mixing", "Mastering"],
-    "audio": "/audio/Mukulu- Tomzkid x Heritage Boy.mp3"
+    "audio": "/audio/My matter- Shevron x SOT.mp3"
   },
 
   {
-    "id": 2,
+    "id": 4,
     "cover": "/musicArtwork/mukulu-artwork.jpg",
-    "duration": "2:54",
-    "title": "Mukulu",
-    "artist": "Tomzkid x Heritage Boy",
-    "services": ["Recording", "Mixing", "Mastering"],
-    "audio": "/audio/Mukulu- Tomzkid x Heritage Boy.mp3"
+    "duration": "3:47",
+    "title": "This Year",
+    "artist": "King",
+    "audio": "/audio/This Year-King.mp3"
+  },
+
+  {
+    "id": 5,
+    "cover": "/musicArtwork/mukulu-artwork.jpg",
+    "duration": "3:47",
+    "title": "Your Love",
+    "artist": "Folli B",
+    "audio": "/audio/Your Love- Folli B.mp3"
+  },
+
+  {
+    "id": 6,
+    "cover": "/musicArtwork/mukulu-artwork.jpg",
+    "duration": "2:40",
+    "title": "Ire",
+    "artist": "Wizlion",
+    "audio": "/audio/WizLion- Ire.mp3"
+  },
+
+  {
+    "id": 7,
+    "cover": "/musicArtwork/mukulu-artwork.jpg",
+    "duration": "2:52",
+    "title": "Lamba",
+    "artist": "Heritage Boi",
+    "audio": "/audio/Lamba by Heritage Boi.mp3"
+  },
+  {
+    "id": 8,
+    "cover": "/musicArtwork/mukulu-artwork.jpg",
+    "duration": "1:29",
+    "title": "Burst My Brain",
+    "artist": "Heritage Boi",
+    "audio": "/audio/Burst My Brain.mp3"
   }
 ]
