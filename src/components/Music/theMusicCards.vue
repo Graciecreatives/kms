@@ -17,7 +17,7 @@
 </style>
 
 <script setup>
-import musicCard from './musicCard.vue'
+import musicCard from '../Music/musicCard.vue';
 import { onMounted, ref} from 'vue';
 const musicList = ref([])
 

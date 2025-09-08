@@ -14,7 +14,7 @@
 </style>
 
 <script setup>
-import pageNavbar from '@/components/pageNavbar.vue';
+import pageNavbar from '@/components/Layout/pageNavbar.vue';
 // import pageFooter from '@/components/pageFooter.vue';
 </script>
 

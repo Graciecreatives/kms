@@ -13,7 +13,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="pt-3 pb-3 choose1 text-center rounded">
               <i class="bi bi-mic fs-2" style="color: #fbbc04"></i>
-              <h3 style="color: white">Professional Recording</h3>
+              <h5 style="color: white">Professional Recording</h5>
               <p style="color: #7d94a0">
                 State-of-the-art equipment and acoustically treated rooms for pristine sound
                 capture.
@@ -24,7 +24,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="pt-3 pb-3 choose1 text-center rounded">
               <i class="bi bi-mic fs-2" style="color: #fbbc04"></i>
-              <h3 style="color: white">Expert Mixing & Mastering</h3>
+              <h5 style="color: white">Expert Mixing & Mastering</h5>
               <p style="color: #7d94a0">
                 Our skilled engineers bring your tracks to life with professional mixing and
                 mastering.
@@ -35,7 +35,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="pt-3 pb-3 choose1 text-center rounded">
               <i class="bi bi-mic fs-2" style="color: #fbbc04"></i>
-              <h3 style="color: white">Beat Production</h3>
+              <h5 style="color: white">Beat Production</h5>
               <p style="color: #7d94a0">
                 Custom beat creation and music production services for all genres.
               </p>
@@ -69,7 +69,7 @@
           </div>
 
           <div class="col-lg-6 col-12 studio_service">
-            <img src="../assets/Images/serviceimg.png" alt="" class="img-fluid" style="border-radius:10px">
+            <img src="/src/assets/Images/serviceimg.png" alt="" class="img-fluid" style="border-radius:10px">
           </div>
         </div>
       </div>

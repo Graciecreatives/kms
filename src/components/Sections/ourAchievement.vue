@@ -9,8 +9,8 @@
         <div class="col-lg-3 col-12 mb-3">
           <div class="pt-3 pb-3 achieve1 text-center rounded">
             <i class="bi bi-mic fs-2" style="color: #fbbc04"></i>
-            <h5 style="color: white">500+ Songs Recorded</h5>
-            <p style="color: #7d94a0">
+            <h6 style="color: white">500+ Songs Recorded</h6>
+            <p style="color: #7d94a0; font-size:13px; padding:5px;">
               Professional recordings for artists across all genres
             </p>
           </div>
@@ -19,8 +19,8 @@
         <div class="col-lg-3 col-12 mb-3">
           <div class="pt-3 pb-3 achieve1 text-center rounded">
             <i class="bi bi-mic fs-2" style="color: #fbbc04"></i>
-            <h5 style="color: white">200+ Happy Clients</h5>
-            <p style="color: #7d94a0">
+            <h6 style="color: white">200+ Happy Clients</h6>
+            <p style="color: #7d94a0; font-size:13px; padding:5px;">
              Building lasting relationships with musicians and creators
             </p>
           </div>
@@ -29,8 +29,8 @@
         <div class="col-lg-3 col-12 mb-3">
           <div class="pt-3 pb-3 achieve1 text-center rounded">
             <i class="bi bi-mic fs-2" style="color: #fbbc04"></i>
-            <h5 style="color: white">12+ Years Experience</h5>
-            <p style="color: #7d94a0">
+            <h6 style="color: white">12+ Years Experience</h6>
+            <p style="color: #7d94a0; font-size:13px; padding:5px;">
               Established in 2013, growing stronger every year
             </p>
           </div>
@@ -39,8 +39,8 @@
         <div class="col-lg-3 col-12 mb-3">
           <div class="pt-3 pb-3 achieve1 text-center rounded">
             <i class="bi bi-mic fs-2" style="color: #fbbc04"></i>
-            <h5 style="color: white">Industry Recognition</h5>
-            <p style="color: #7d94a0">
+            <h6 style="color: white">Industry Recognition</h6>
+            <p style="color: #7d94a0; font-size:13px; padding:5px;">
               Featured in local music publications and industry events
             </p>
           </div>

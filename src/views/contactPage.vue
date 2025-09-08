@@ -12,10 +12,10 @@
 </style>
 
 <script setup>
-import pageNavbar from '@/components/pageNavbar.vue';
-import contactContent from '@/components/contactContent.vue';
-import pageFooter from '@/components/pageFooter.vue';
-import somethingAmazing from '@/components/somethingAmazing.vue';
+import pageNavbar from '@/components/Layout/pageNavbar.vue';
+import contactContent from '@/components/Sections/contactContent.vue';
+import pageFooter from '@/components/Layout/pageFooter.vue';
+import somethingAmazing from '@/components/Sections/somethingAmazing.vue';
 </script>
 
 

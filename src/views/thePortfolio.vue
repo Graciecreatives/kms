@@ -18,12 +18,12 @@
 </style>
 
 <script setup>
-import pageNavbar from '@/components/pageNavbar.vue';
-import portfolioHerosec from '@/components/portfolio-Herosec.vue';
-import testimonialSection from '@/components/testimonialSection.vue';
-import somethingAmazing from '@/components/somethingAmazing.vue';
-import pageFooter from '@/components/pageFooter.vue';
-import theMusicCards from '@/components/theMusicCards.vue';
+import pageNavbar from '@/components/Layout/pageNavbar.vue';
+import portfolioHerosec from '@/components/Sections/portfolio-Herosec.vue';
+import testimonialSection from '@/components/Sections/testimonialSection.vue';
+import somethingAmazing from '@/components/Sections/somethingAmazing.vue';
+import pageFooter from '@/components/Layout/pageFooter.vue';
+import theMusicCards from '@/components/Music/theMusicCards.vue';
 
 </script>
 

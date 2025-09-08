@@ -3,7 +3,7 @@
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-dark">
         <a href="/" class="navbar-brand w-25" style="padding:0; margin:0">
-          <img src="../assets/Images/Logo.png" alt="Logo" class="w-50"/>
+          <img src="/src/assets/Images/Logo.png" alt="Logo" class="w-50"/>
         </a>
 
         <!-- Toggle button -->
