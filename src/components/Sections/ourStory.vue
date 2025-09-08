@@ -24,7 +24,7 @@
         </div>
 
         <div class="col-lg-6 col-12" >
-          <img src="../assets/Images/IMAGE1.jpg" alt="" class="img-fluid
+          <img src="/src/assets/Images/IMAGE1.jpg" alt="" class="img-fluid
           ">
         </div>
       </div>
