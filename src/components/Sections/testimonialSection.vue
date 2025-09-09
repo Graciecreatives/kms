@@ -8,43 +8,42 @@
       <div class="container mt-5">
         <div class="row justify-content-center g-4">
           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="pt-3 pb-3 ps-3 pe-2 choose1 text-left rounded">
+            <div class="p-5 testimonial1 text-left rounded">
               <p>⭐⭐⭐⭐⭐</p>
-               <p style="color: #7d94a0"> <i>
-                "SoundWave Studio transformed my demos into radio-ready tracks. The team's expertise is unmatched!" </i>
+               <p> <i>
+                Kingz Music Studio transformed my sound completely. The attention to detail and professional quality exceeded all my expectations. This is where magic happens!"</i>
               </p>
               <div class="d-flex align-items-center">
                 <!-- <img src="..." class="rounded me-3" alt="..."> -->
-                <p style="color:white">Sarah Johnson <br>
-                <span style="color:#5c86a2">Artiste</span></p>
+                <p>Sarah Johnson <br>
+                <span style="color:white">Artiste</span></p>
               </div>
             </div>
           </div>
 
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="pt-3 pb-3 ps-3 pe-2 choose1 text-left rounded">
+           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="p-5 testimonial1 text-left rounded">
               <p>⭐⭐⭐⭐⭐</p>
-               <p style="color: #7d94a0"> <i>
-                "SoundWave Studio transformed my demos into radio-ready tracks. The team's expertise is unmatched!" </i>
+               <p> <i>
+                Kingz Music Studio transformed my sound completely. The attention to detail and professional quality exceeded all my expectations. This is where magic happens!"</i>
               </p>
               <div class="d-flex align-items-center">
                 <!-- <img src="..." class="rounded me-3" alt="..."> -->
-                <p style="color:white">Sarah Johnson <br>
-                <span style="color:#5c86a2">Artiste</span></p>
+                <p>Sarah Johnson <br>
+                <span style="color:white">Artiste</span></p>
               </div>
             </div>
           </div>
-
             <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="pt-3 pb-3 ps-3 pe-2 choose1 text-left rounded">
+            <div class="p-5 testimonial1 text-left rounded">
               <p>⭐⭐⭐⭐⭐</p>
-               <p style="color: #7d94a0"> <i>
-                "SoundWave Studio transformed my demos into radio-ready tracks. The team's expertise is unmatched!" </i>
+               <p> <i>
+                Kingz Music Studio transformed my sound completely. The attention to detail and professional quality exceeded all my expectations. This is where magic happens!"</i>
               </p>
               <div class="d-flex align-items-center">
                 <!-- <img src="..." class="rounded me-3" alt="..."> -->
-                <p style="color:white">Sarah Johnson <br>
-                <span style="color:#5c86a2">Artiste</span></p>
+                <p>Sarah Johnson <br>
+                <span style="color:white">Artiste</span></p>
               </div>
             </div>
           </div>
@@ -56,19 +55,52 @@
 
 <style lang="scss" scoped>
 .testimonial {
-  background-color: #000000;
+  background: #17002c;
+  background: linear-gradient(
+    90deg,
+    rgba(23, 0, 44, 1) 0%,
+    rgba(23, 0, 44, 1) 27%,
+    rgba(0, 0, 0, 1) 52%
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
    font-family:"Rethink Sans", "Rethink Sans Placeholder", sans-serif;
 }
 .chooose-text {
   color: white !important;
 }
-.choose1 {
-  background-color: #080c14;
-  border: 1px solid rgba(255, 255, 255, 0.518);
+.testimonial1 {
+  position: relative;
+  background: #0f0f23;
+  border: 1px solid rgba(255, 255, 255, 0.731);
+  border-radius: 10px;
   cursor: pointer;
+  overflow: hidden;
+  z-index:0;
+  color: #00ffff;
+
 }
-.choose1:hover {
-  border: 1px solid#fbbc04;
+
+.testimonial1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #ff6b9d, #c471ed);
+  opacity: 0;
+  transition: opacity 2s ease; /* controls fade speed */
+  z-index: 0;
+  border-radius: inherit;
+}
+
+.testimonial1:hover::before {
+  opacity: 1;
+ }
+
+
+.testimonial1 * {
+  position: relative;
+  z-index: 2;
 }
 .studio_service h1 {
   color: white;

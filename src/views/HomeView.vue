@@ -7,6 +7,7 @@ import thehomeServices from '@/components/Sections/thehomeServices.vue';
 import testimonialSection from '@/components/Sections/testimonialSection.vue';
 import somethingAmazing from '@/components/Sections/somethingAmazing.vue';
 import pageFooter from '@/components/Layout/pageFooter.vue';
+import ourStudio from '@/components/Sections/ourStudio.vue';
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import pageFooter from '@/components/Layout/pageFooter.vue';
     <heroSection/>
     <homeStats/>
     <thehomeServices/>
+    <ourStudio/>
     <testimonialSection/>
     <somethingAmazing/>
     <pageFooter/>
