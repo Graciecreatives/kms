@@ -3,19 +3,23 @@
     <div class="container">
       <div class="row align-items-center">
         <!-- Text Section -->
-        <div class="col-lg-8 col-12 text-center text-lg-start">
-          <h1 class="banner-heading">Ready to Create Your Next Hit?</h1>
-          <p class="banner-subtext">
+        <div class="col-lg-8 col-12 text-center text-lg-start" data-aos="fade-right"    data-aos-delay="100">
+          <h1 class="banner-heading" data-aos="fade-right"
+             data-aos-delay="200">Ready to Create Your Next Hit?</h1>
+          <p class="banner-subtext" data-aos="fade-right"
+             data-aos-delay="300">
             Book your studio session today and experience the difference professional production makes.
             Limited slots available this month!
           </p>
-          <a href="" type="button" class="btn btn-primary btn-lg bookbtn me-3 mb-4">
+          <a href="" type="button" class="btn btn-primary btn-lg bookbtn me-3 mb-4" data-aos="fade-right"
+             data-aos-delay="400">
             Book Your Session <span><i class="bi bi-arrow-right"></i></span>
           </a>
         </div>
 
         <!-- Visual Animation -->
-        <div class="col-lg-4 col-12 d-flex justify-content-center justify-content-lg-end mt-4 mt-lg-0">
+        <div class="col-lg-4 col-12 d-flex justify-content-center justify-content-lg-end mt-4 mt-lg-0" data-aos="fade-left"
+             data-aos-delay="500">
           <div class="banner-visual">
             <div class="pulse-circle"></div>
             <div class="pulse-circle delay-1"></div>

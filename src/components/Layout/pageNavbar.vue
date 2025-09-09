@@ -53,6 +53,7 @@
 <script setup></script>
 
 <style lang="scss" scoped>
+
 .theNav{
   background-color: #000000;
   font-family:"Rethink Sans", "Rethink Sans Placeholder", sans-serif;
@@ -62,18 +63,18 @@
   color:white !important;
 }
 .nav-link:hover{
-  color:#D08700 !important;
+  color:#00ffff !important;
 }
 .nav-link:active{
-  color: #D08700 !important;
+  color: #00ffff !important;
 }
 .signupbtn{
-  background-color: #D08700 !important;
+  background: linear-gradient(90deg, #ff6b9d, #c471ed, #00ffff);
   border:none;
   color: black;
 }
 .signupbtn:hover{
-  background-color: #a65f00 !important;
+ opacity:0.7;
 }
 .signinbtn{
   color: white !important;
@@ -82,6 +83,6 @@
 }
 .signinbtn:hover{
   color: white !important;
-  background-color:#D08700 !important;
+  background: linear-gradient(90deg, #ff6b9d, #c471ed, #00ffff);
 }
 </style>

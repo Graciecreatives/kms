@@ -15,7 +15,7 @@
 import pageNavbar from '@/components/Layout/pageNavbar.vue';
 import contactContent from '@/components/Sections/contactContent.vue';
 import pageFooter from '@/components/Layout/pageFooter.vue';
-import somethingAmazing from '@/components/Sections/somethingAmazing.vue';
+import somethingAmazing from '@/components/Sections/bookingBanner.vue';
 </script>
 
 

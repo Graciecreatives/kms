@@ -2,7 +2,7 @@
   <section class="why-Choose pt-5 pb-5">
     <div class="container">
       <div class="text-center chooose-text">
-        <h1>Why Choose Kingz Music Studio?</h1>
+        <h1 class="heading">Why Choose Kingz Music Studio?</h1>
         <p>
           We combine cutting-edge technology with years of experience to deliver professional
           results that exceed expectations.
@@ -82,6 +82,22 @@
   background-color: #000000;
    font-family:"Rethink Sans", "Rethink Sans Placeholder", sans-serif;
 }
+.heading{
+  background: linear-gradient(90deg, #ff6b9d, #c471ed, #00ffff);
+  background-size: 300% 300%; /* Make it wider so animation moves smoothly */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 5s ease infinite;
+  text-align: center;
+  font-size: clamp(2rem, 8vw, 4rem);
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 .chooose-text {
   color: white !important;
 }

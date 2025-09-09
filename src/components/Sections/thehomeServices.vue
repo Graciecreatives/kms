@@ -1,11 +1,13 @@
 <template>
   <section class="homeServices">
     <div class="container pt-5">
-      <h1 class="text-center mb-5">Services</h1>
+      <h1 class="text-center mb-5 service-heading"   data-aos="fade-up"
+             data-aos-delay="100">Services</h1>
 
       <div class="container mb-4">
         <div class="row g-4">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4"   data-aos="fade-up"
+             data-aos-delay="200">
             <div class="p-3 pb-5 text-center service1">
               <i class="bi bi-mic-fill services-icon"></i>
               <h4>Recording</h4>
@@ -17,7 +19,8 @@
             </div>
           </div>
 
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4"   data-aos="fade-up"
+             data-aos-delay="300">
             <div class="p-3 pb-5 text-center service1">
               <i class="bi bi-headset services-icon"></i>
               <h4>Mixing</h4>
@@ -29,7 +32,8 @@
             </div>
           </div>
 
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4"   data-aos="fade-up"
+             data-aos-delay="400">
             <div class="p-4 pb-4 text-center service1">
               <i class="bi bi-activity services-icon"></i>
               <h4>Mastering</h4>
@@ -45,7 +49,8 @@
 
       <div class="container">
         <div class="row g-4">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4"   data-aos="fade-up"
+             data-aos-delay="500">
             <div class="p-3 pb-5 text-center service1">
               <i class="bi bi-vinyl-fill services-icon"></i>
               <h4>Production</h4>
@@ -56,7 +61,8 @@
             </div>
           </div>
 
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4"   data-aos="fade-up"
+             data-aos-delay="600">
             <div class="p-3 pb-5 text-center service1">
               <i class="bi bi-music-note-beamed services-icon"></i>
               <h4>Composition</h4>
@@ -67,7 +73,8 @@
             </div>
           </div>
 
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4"   data-aos="fade-up"
+             data-aos-delay="700">
             <div class="p-4 pb-4 text-center service1">
               <i class="bi bi-mic-fill services-icon"></i>
               <h4>Vocal Coaching</h4>
@@ -98,6 +105,22 @@
   // height: 100vh;
   padding-bottom: 50px;
   font-family: 'Rethink Sans', 'Rethink Sans Placeholder', sans-serif;
+}
+.service-heading{
+  background: linear-gradient(90deg, #ff6b9d, #c471ed, #00ffff);
+  background-size: 300% 300%; /* Make it wider so animation moves smoothly */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 5s ease infinite;
+  text-align: center;
+  font-size: clamp(2rem, 8vw, 4rem);
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+
 }
 .service1 {
   background: #0f0f23;

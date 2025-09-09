@@ -3,67 +3,51 @@
     <div class="container">
       <footer class="py-5">
         <div class="row">
-          <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
+          <!-- Brand / Address -->
+          <div class="col-12 col-md-4 mb-4">
+            <h5>Kingz Music Studio</h5>
+            <address>
+              45 Soundwave Avenue,<br />
+              Lagos, Nigeria <br />
+              Phone: +234 800 123 4567 <br />
+              Email: info@kingzmusic.com
+            </address>
+
+            <!-- Social Media -->
+            <div class="mt-3 d-flex gap-3">
+              <a href="#"><i class="bi bi-instagram" style="color:white; font-size:1.3rem;"></i></a>
+              <a href="#"><i class="bi bi-youtube" style="color:white; font-size:1.3rem;"></i></a>
+              <a href="#"><i class="bi bi-spotify" style="color:white; font-size:1.3rem;"></i></a>
+              <a href="#"><i class="bi bi-facebook" style="color:white; font-size:1.3rem;"></i></a>
+              <a href="#"><i class="bi bi-whatsapp" style="color:white; font-size:1.3rem;"></i></a>
+            </div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="col-6 col-md-2 mb-4">
+            <h5>Navigation</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">About</a>
-              </li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Services</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Portfolio</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Contact</a></li>
             </ul>
           </div>
-          <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
+
+          <!-- Quick Links -->
+          <div class="col-6 col-md-2 mb-4">
+            <h5>Quick Links</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">About</a>
-              </li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Support</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Policies</a></li>
             </ul>
           </div>
-          <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">About</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-5 offset-md-1 mb-3">
+
+          <!-- Newsletter -->
+          <div class="col-12 col-md-4 mb-4">
             <form>
               <h5>Subscribe to our newsletter</h5>
               <p>Monthly digest of what's new and exciting from us.</p>
@@ -75,14 +59,17 @@
                   class="form-control"
                   placeholder="Email address"
                 />
-                <button class="btn btn-primary subscribebtn" type="button">Subscribe</button>
+                <button class="btn subscribebtn" type="button">Subscribe</button>
               </div>
             </form>
           </div>
         </div>
-        <div class=" py-4 my-2 border-top">
-          <p class="text-center" style="color:#D08700;">&copy; 2025 Company, Inc. All rights reserved.</p>
 
+        <!-- Bottom copyright -->
+        <div class="py-4 my-2 border-top">
+          <p class="text-center">
+            &copy; 2025 Kingz Music Studio. All rights reserved.
+          </p>
         </div>
       </footer>
     </div>
@@ -90,31 +77,36 @@
 </template>
 
 <style lang="scss" scoped>
-footer{
-  background-color: black;
-   font-family:"Rethink Sans", "Rethink Sans Placeholder", sans-serif;
+footer {
+  background: linear-gradient(
+    90deg,
+    rgba(23, 0, 44, 1) 0%,
+    rgba(23, 0, 44, 1) 27%,
+    rgba(0, 0, 0, 1) 52%
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Rethink Sans", sans-serif;
 }
 
-footer a{
-  color: #D08700 !important;
-}
-.subscribebtn{
-   background-color: #D08700;
-  color: Black;
-  border:none;
+footer a {
+  color: white !important;
+  text-decoration: none;
 }
 
-.subscribebtn:hover{
-    background-color: #a65f00;
+.subscribebtn {
+  background: linear-gradient(90deg, #ff6b9d, #c471ed, #00ffff);
+  color: black;
+  border: none;
 }
-p{
-  color:#a65f00;
+
+
+p {
+  color: white;
 }
-h5{
-  color:white;
+
+h5 {
+  color: white;
 }
 </style>
-
-<script setup></script>
-
-

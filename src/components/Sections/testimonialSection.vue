@@ -2,12 +2,14 @@
   <section class="testimonial pt-5 pb-5">
     <div class="container">
       <div class="text-center chooose-text">
-        <h1>What Our Artistes Say</h1>
-        <p>Don't just take our word for it - hear from the artists we've worked with.</p>
+        <h1 class="testimonialHeading" data-aos="fade-down"
+             data-aos-delay="100">What Our Artistes Say</h1>
+        <p data-aos="fade-up"
+             data-aos-delay="200">Don't just take our word for it - hear from the artists we've worked with.</p>
       </div>
       <div class="container mt-5">
         <div class="row justify-content-center g-4">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4" data-aos="fade-up"    data-aos-delay="300">
             <div class="p-5 testimonial1 text-left rounded">
               <p>⭐⭐⭐⭐⭐</p>
                <p> <i>
@@ -21,7 +23,7 @@
             </div>
           </div>
 
-           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+           <div class="col-12 col-sm-12 col-md-6 col-lg-4" data-aos="fade-up"         data-aos-delay="400">
             <div class="p-5 testimonial1 text-left rounded">
               <p>⭐⭐⭐⭐⭐</p>
                <p> <i>
@@ -34,7 +36,7 @@
               </div>
             </div>
           </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4" data-aos="fade-up"     data-aos-delay="500">
             <div class="p-5 testimonial1 text-left rounded">
               <p>⭐⭐⭐⭐⭐</p>
                <p> <i>
@@ -70,6 +72,22 @@
 .chooose-text {
   color: white !important;
 }
+.testimonialHeading{
+  background: linear-gradient(90deg, #ff6b9d, #c471ed, #00ffff);
+  background-size: 300% 300%; /* Make it wider so animation moves smoothly */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 5s ease infinite;
+  text-align: center;
+  font-size: clamp(2rem, 8vw, 4rem);
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 .testimonial1 {
   position: relative;
   background: #0f0f23;

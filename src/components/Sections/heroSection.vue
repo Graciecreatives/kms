@@ -2,26 +2,28 @@
   <section class="hero-section d-flex align-items-center justify-content-center">
     <div class="px-4 py-5 my-0 text-center position-relative">
       <!-- Flowing Music Icons -->
-      <div class="flowingicons">
+      <div class="flowingicons"  data-aos="fade-in" data-aos-delay="200">
         <span><i class="bi bi-music-note"></i></span>
         <span><i class="bi bi-music-note-beamed"></i></span>
         <span><i class="bi bi-headset"></i></span>
         <span><i class="bi bi-mic"></i></span>
       </div>
 
-      <h1 class="display-5 fw-bold display-1 text-body-emphasis hero-text col-lg-12 col-12">
+      <h1 class="display-5 fw-bold display-1 text-body-emphasis hero-text col-lg-12 col-12" data-aos="fade-up" data-aos-delay="400">
         Create. Record. Inspire.
       </h1>
       <div class="col-lg-8 mx-auto">
-        <p class="mb-4 heroparagraph" style="color: white">
+        <p class="mb-4 heroparagraph" style="color: white" data-aos="fade-up"  data-aos-delay="600">
           Professional music production that brings your vision to life with cutting-edge technology
           and artistic expertise.
         </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <a href="" type="button" class="btn btn-primary btn-lg bookbtn me-3 mb-4">
+          <a href="" type="button" class="btn btn-primary btn-lg bookbtn me-3 mb-4" data-aos="zoom-in"
+             data-aos-delay="800">
             Book Your Session <span><i class="bi bi-arrow-right"></i></span>
           </a>
-          <a href="" type="button" class="btn btn-primary btn-lg explorebtn me-3 mb-4">
+          <a href="" type="button" class="btn btn-primary btn-lg explorebtn me-3 mb-4" data-aos="zoom-in"
+             data-aos-delay="1000">
             Explore Portfolio <span><i class="bi bi-arrow-right"></i></span>
           </a>
         </div>

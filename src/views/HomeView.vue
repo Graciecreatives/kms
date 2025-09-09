@@ -5,7 +5,8 @@ import homeStats from '@/components/Sections/homeStats.vue';
 // import whyChoose from '@/components/Sections/whyChoose.vue';
 import thehomeServices from '@/components/Sections/thehomeServices.vue';
 import testimonialSection from '@/components/Sections/testimonialSection.vue';
-import somethingAmazing from '@/components/Sections/somethingAmazing.vue';
+// import somethingAmazing from '@/components/Sections/bookingBanner.vue';
+import bookingBanner from '@/components/Sections/bookingBanner.vue';
 import pageFooter from '@/components/Layout/pageFooter.vue';
 import ourStudio from '@/components/Sections/ourStudio.vue';
 </script>
@@ -18,7 +19,7 @@ import ourStudio from '@/components/Sections/ourStudio.vue';
     <thehomeServices/>
     <ourStudio/>
     <testimonialSection/>
-    <somethingAmazing/>
+    <bookingBanner/>
     <pageFooter/>
   </main>
 </template>
