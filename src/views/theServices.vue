@@ -13,11 +13,11 @@
           <span><i class="bi bi-vinyl-fill"></i></span>
         </div>
 
-        <h1 class="display-5 fw-bold display-1 text-body-emphasis services-hero-text col-lg-12 col-12">
+        <h1 class="display-5 fw-bold display-1 text-body-emphasis services-hero-text col-lg-12 col-12"  data-aos="fade-up" data-aos-delay="100">
           Professional Music Services
         </h1>
         <div class="col-lg-8 mx-auto">
-          <p class="mb-4 services-hero-paragraph" style="color: white">
+          <p class="mb-4 services-hero-paragraph" style="color: white"  data-aos="fade-up" data-aos-delay="200">
             From recording to mastering, we provide comprehensive music production services
             that bring your artistic vision to life with cutting-edge technology and expertise.
           </p>
@@ -28,15 +28,15 @@
     <!-- Main Services Section -->
     <section class="main-services pt-5 pb-5">
       <div class="container">
-        <h1 class="text-center mb-5 services-main-heading">Our Services</h1>
+        <h1 class="text-center mb-5 services-main-heading"  data-aos="fade-up" data-aos-delay="100">Our Services</h1>
 
         <!-- Recording Services -->
         <div class="row mb-5">
           <div class="col-12">
-            <h2 class="service-category-heading">Recording Services</h2>
+            <h2 class="service-category-heading"  data-aos="fade-up" data-aos-delay="200">Recording Services</h2>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
             <div class="service-card">
               <div class="service-icon-container">
                 <i class="bi bi-mic-fill service-icon"></i>
@@ -57,7 +57,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4"  data-aos="fade-up" data-aos-delay="400">
             <div class="service-card">
               <div class="service-icon-container">
                 <i class="bi bi-music-note-beamed service-icon"></i>
@@ -78,7 +78,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
             <div class="service-card">
               <div class="service-icon-container">
                 <i class="bi bi-headset service-icon"></i>
@@ -103,10 +103,10 @@
         <!-- Production Services -->
         <div class="row mb-5">
           <div class="col-12">
-            <h2 class="service-category-heading">Production Services</h2>
+            <h2 class="service-category-heading" data-aos="fade-up" data-aos-delay="100">Production Services</h2>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
             <div class="service-card">
               <div class="service-icon-container">
                 <i class="bi bi-activity service-icon"></i>
@@ -127,7 +127,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
             <div class="service-card">
               <div class="service-icon-container">
                 <i class="bi bi-vinyl-fill service-icon"></i>
@@ -148,7 +148,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
             <div class="service-card">
               <div class="service-icon-container">
                 <i class="bi bi-music-note service-icon"></i>
@@ -173,10 +173,10 @@
         <!-- Specialized Services -->
         <div class="row mb-5">
           <div class="col-12">
-            <h2 class="service-category-heading">Specialized Services</h2>
+            <h2 class="service-category-heading" data-aos="fade-up" data-aos-delay="100">Specialized Services</h2>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
             <div class="service-card">
               <div class="service-icon-container">
                 <i class="bi bi-mic service-icon"></i>
@@ -197,7 +197,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
             <div class="service-card">
               <div class="service-icon-container">
                 <i class="bi bi-camera-video service-icon"></i>
@@ -218,7 +218,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
             <div class="service-card">
               <div class="service-icon-container">
                 <i class="bi bi-broadcast service-icon"></i>
@@ -245,10 +245,10 @@
      <!-- Process Section -->
     <section class="process-section pt-5 pb-5">
       <div class="container">
-        <h1 class="text-center mb-5 process-heading">Our Process</h1>
+        <h1 class="text-center mb-5 process-heading" data-aos="fade-up" data-aos-delay="100">Our Process</h1>
 
         <div class="row">
-          <div class="col-lg-3 col-md-6 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
             <div class="process-step">
               <div class="step-number">1</div>
               <h3>Consultation</h3>
@@ -256,7 +256,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
             <div class="process-step">
               <div class="step-number">2</div>
               <h3>Pre-Production</h3>
@@ -264,7 +264,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
             <div class="process-step">
               <div class="step-number">3</div>
               <h3>Recording</h3>
@@ -272,7 +272,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
             <div class="process-step">
               <div class="step-number">4</div>
               <h3>Post-Production</h3>
@@ -286,10 +286,10 @@
     <!-- Pricing Packages -->
     <section class="pricing-section pt-5 pb-5">
       <div class="container">
-        <h1 class="text-center mb-5 pricing-heading">Pricing Packages</h1>
+        <h1 class="text-center mb-5 pricing-heading" data-aos="fade-up" data-aos-delay="100">Pricing Packages</h1>
 
         <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-6 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
             <div class="pricing-card">
               <div class="pricing-header">
                 <h3>Basic Package</h3>
@@ -307,7 +307,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
             <div class="pricing-card featured">
               <div class="pricing-badge">Most Popular</div>
               <div class="pricing-header">
@@ -327,7 +327,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
             <div class="pricing-card">
               <div class="pricing-header">
                 <h3>Premium Package</h3>
