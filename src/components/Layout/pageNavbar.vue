@@ -40,8 +40,8 @@
           </ul>
 
           <div class="d-flex">
-            <button type="button" class="btn btn-outline-primary me-2 signinbtn">Sign In</button>
-            <button type="button" class="btn btn-primary signupbtn">Sign Up</button>
+            <router-link to="/login" class="btn btn-outline-primary me-2 signinbtn">Sign In</router-link>
+            <router-link to="/signup" class="btn btn-primary signupbtn">Sign Up</router-link>
           </div>
         </div>
       </nav>

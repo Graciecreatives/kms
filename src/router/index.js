@@ -4,6 +4,8 @@ import theServices from '@/views/theServices.vue'
 import AboutUs from '@/views/AboutUs.vue'
 import thePortfolio from '@/views/thePortfolio.vue'
 import contactPage from '@/views/contactPage.vue'
+import LoginPage from '@/views/LoginPage.vue'
+import SignupPage from '@/views/SignupPage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -34,6 +36,16 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: contactPage,
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: LoginPage,
+    },
+    {
+      path: '/signup',
+      name: 'signup',
+      component: SignupPage,
     },
   ],
 })
